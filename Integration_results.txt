@@ -1,0 +1,67 @@
+===== SUMMARY OF RESULTS =====
+
+Problem 1: ∫[-1,1] x² / (1 + x⁴) dx
+True value ≈ 0.487495494
+  N = 2   =>  Result = 0.600000000,  Error = 1.13e-01
+  N = 3   =>  Result = 0.490196079,  Error = 2.70e-03
+  N = 4   =>  Result = 0.481635482,  Error = 5.86e-03
+  N = 5   =>  Result = 0.488432352,  Error = 9.37e-04
+  N = 6   =>  Result = 0.487604487,  Error = 1.09e-04
+  N = 7   =>  Result = 0.487431288,  Error = 6.42e-05
+  N = 8   =>  Result = 0.487501940,  Error = 6.45e-06
+  N = 9   =>  Result = 0.487497367,  Error = 1.87e-06
+  N = 10  =>  Result = 0.487494852,  Error = 6.42e-07
+  N = 11  =>  Result = 0.487495522,  Error = 2.78e-08
+  N = 12  =>  Result = 0.487495520,  Error = 2.56e-08
+  N = 13  =>  Result = 0.487495489,  Error = 5.50e-09
+  N = 14  =>  Result = 0.487495494,  Error = 4.52e-11
+  N = 15  =>  Result = 0.487495495,  Error = 6.04e-10
+  N = 16  =>  Result = 0.487495494,  Error = 3.13e-10
+
+Problem 2: ∫[0,1] √(1 + x⁴) dx
+True value ≈ 1.089429413
+Simpson's Rule (N=20): 1.089429413, Error = 2.18e-10
+
+Gaussian Quadrature results:
+ N  |    Result    |    Error
+------------------------------------
+2   |  1.089330773 |     9.86e-05
+3   |  1.089458817 |     2.94e-05
+4   |  1.089424360 |     5.05e-06
+5   |  1.089429888 |     4.75e-07
+6   |  1.089429377 |     3.64e-08
+7   |  1.089429416 |     2.67e-09
+8   |  1.089429413 |     2.19e-10
+9   |  1.089429413 |     2.31e-10
+10  |  1.089429413 |     2.28e-10
+11  |  1.089429414 |     6.88e-10
+12  |  1.089429413 |     2.06e-12
+13  |  1.089429413 |     2.19e-10
+14  |  1.089429413 |     2.05e-10
+15  |  1.089429413 |     5.54e-11
+16  |  1.089429413 |     2.18e-10
+
+===== COMPARISON TABLE =====
+Method                   Result              Error
+------------------------------------------------------------
+Simpson (N=20)           1.089429413         2.18e-10
+Gaussian N=2             1.089330773         9.86e-05
+Gaussian N=3             1.089458817         2.94e-05
+Gaussian N=4             1.089424360         5.05e-06
+Gaussian N=5             1.089429888         4.75e-07
+Gaussian N=6             1.089429377         3.64e-08
+Gaussian N=7             1.089429416         2.67e-09
+Gaussian N=8             1.089429413         2.19e-10
+Gaussian N=9             1.089429413         2.31e-10
+Gaussian N=10            1.089429413         2.28e-10
+Gaussian N=11            1.089429414         6.88e-10
+Gaussian N=12            1.089429413         2.06e-12
+Gaussian N=13            1.089429413         2.19e-10
+Gaussian N=14            1.089429413         2.05e-10
+Gaussian N=15            1.089429413         5.54e-11
+Gaussian N=16            1.089429413         2.18e-10
+
+===== ACCURACY NOTE =====
+For Integral 1, 9-decimal accuracy reached at N = 14
+For Integral 2 (Gaussian), 9-decimal accuracy reached at N = 8
+For Integral 2 (Simpson, N=20), 9-decimal accuracy reached? Yes

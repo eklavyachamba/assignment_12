@@ -1,0 +1,35 @@
+== Simpson's 1/3 Rule Final Result ==
+Integration range: [0, 1]
+Number of subintervals (N): 10
+Approximate Integral = 1.08942938
+
+== Simpson's 1/3 Rule Final Result ==
+Integration range: [0, 1]
+Number of subintervals (N): 10
+Approximate Integral = 1.08942938
+
+== Simpson's 1/3 Rule Final Result ==
+Integration range: [0, 1]
+Number of subintervals (N): 10
+Approximate Integral = 1.08942938
+
+== Simpson's 1/3 Rule Final Result ==
+Integration range: [0, 1]
+Number of subintervals (N): 10
+Approximate Integral = 1.08942938
+
+== Simpson's 1/3 Rule Final Result ==
+Integration range: [0, 1]
+Number of subintervals (N): 20
+Approximate Integral = 1.08942941
+
+== Simpson's 1/3 Rule Final Result ==
+Integration range: [0, 1]
+Number of subintervals (N): 20
+Approximate Integral = 1.08942941
+
+== Simpson's 1/3 Rule Final Result ==
+Integration range: [0, 1]
+Number of subintervals (N): 20
+Approximate Integral = 1.08942941
+
