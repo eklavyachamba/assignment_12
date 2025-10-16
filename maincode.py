@@ -22,12 +22,16 @@ for n in range(2, 17):
     except ValueError:
         continue
 
+open("output1.txt", "w").close() # Clear temp file
+
 # --------------------------
 # Problem 2
 # --------------------------
 f2 = lambda x: math.sqrt(1 + x**4)
 a2, b2 = 0, 1
 true_val2 = 1.089429413
+
+open("temp.txt", "w").close() # Clear temp file
 
 # Simpson’s rule
 Simpson_obj = Simpsons(f2, a2, b2, N=20, outfile="temp.txt") # Using N=20 for Simpson's rule
@@ -44,6 +48,7 @@ for n in range(2, 17):
 # --------------------------
 # Write summary and comparison
 # --------------------------
+open("Integration_results.txt", "w").close() # Clear previous results
 with open("Integration_results.txt", "w") as f:
     f.write("===== SUMMARY OF RESULTS =====\n\n")
 
